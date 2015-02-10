@@ -1,0 +1,27 @@
+<sentence> ::= <noun phrase> <verb phrase>
+<sentence> ::= <noun phrase> <verb phrase> <conjunction> <verb phrase>
+<sentence> ::= <noun> <connection> <noun> <verb phrase>
+<sentence> ::= <noun> <verb phrase> <connection> <noun phrase> <verb phrase>
+<noun> ::= cat | dog | boy | girl | man | woman | child | lizard | iguana | poison-toad | ferret | bulldog
+<noun> ::= iphone-6 | laptop | iPad | fireball | whiskey | party | car | jeep | plane | drone | river
+<noun> ::= mountain | field | fjord | sunflower | fern | palm-tree | soccer | soccer-ball | basketball
+<noun> ::= text | book | person | thief | skydiver | scuba-diver | cat-therapist | student
+<transitive verb> ::= bring | cost | give | lend | offer | pass | play | read | send | sing | teach
+<transitive verb> ::= write | buy | get | leave | make | owe | pay | promise | refuse | show | take | tell
+<intransitive verb> ::= arrived | sits | sneezes | lie | went | dies | agree | belong | depend | exist
+<intransitive verb> ::= have | occur | swim | appear | collapse | fall | inquire | live | remain | sleep
+<adjective> ::= big | small | medium | blue | green | yellow | fast | slow | tall | short | risky | safe
+<adjective> ::= flat | cold | hot | smooth | attractive | square | circular | furry | fluffy | sticky
+<adverb> ::= accidentally | always | angrily | anxiously | badly | blindly | boastfully | cheerfully
+<adverb> ::= coyly | crazily | foolishly | fortunately | frequently | honestly | merrily | rapidly
+<determiner> ::= a | the | this | that | each | every
+<pronoun> ::= he | she | it | I | me | we | us | you | her | him | it | they
+<preposition> ::= in | on | of | around | about | around | below | above | within
+<conjunction> ::= and | but | or | nor | for | yet | so
+<connection> ::= and | with 
+<noun phrase> ::= <determiner> <noun> | <determiner> <adjectives> <noun>
+<noun phrase> ::= <determiner> <noun> <prepositional phrase>
+<verb phrase> ::= <intransitive verb> | <transitive verb> <noun phrase>
+<prepositional phrase> ::= <preposition> <noun phrase>
+<adjectives> ::= <adjective> | <adjective> <adjectives>
+
